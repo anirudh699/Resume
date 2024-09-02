@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+.header{
+    position: fixed ;
+    width: 100%;
+}
+
+.header-inner{
+   
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffff;
+    -webkit-box-shadow: 0px 13px 48px -10px rgba(0,0,0,0.2);
+-moz-box-shadow: 0px 13px 48px -10px rgba(0,0,0,0.2);
+box-shadow: 0px 13px 48px -10px rgba(0,0,0,0.2);
+
+
+}
+.header-inner li{
+    display: inline-block;
+    padding: 10px;
+   margin-top: 5px;
+    margin: 3px;
+    
+}
+i{
+    color: #F26464;
+    font-size: 1.5rem;
+}
+
+i:hover {
+    color: #ff0000;
+    font-size: 1.6rem;
+}
+
+
+
+.container{
+    width: 75%;
+    margin: auto;
+}
+.row{
+    display: flex;
+
+
+}
+.profile-image img{
+    height: 500px;
+    border-radius: 15px;
+    margin-top: 100px;
+
+}
+.intro{
+    margin-top: 300px;
+    margin-left: 200px;
+    font-size: 2rem    ;
+}
+
+.heading{
+    text-decoration:underline #F26464 3px;
+    text-underline-offset: 10px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    margin-bottom: 50px;
+
+    
+}
+.skills-section{
+    margin-bottom: 70px;
+}
+.skills-list{
+    margin-top: 50px;
+}
+.skills-list li{
+    display:inline;
+    border:1px solid #F26464;
+    padding: 10px;
+    border-radius: 12px;
+   margin-right: 10px;
+   
+}
+
+.des{
+    font-size:1.5rem;
+    font-weight: 250;
+    word-spacing: 8px;
+    line-height: 2rem;
+}
+
+.button-sec{
+    text-align: center;
+    border: 2;
+    margin-top: 100px;
+}
+.button{
+    border: 2px solid  #F26464;
+    padding: 15px;
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: center;
+    border-radius: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color:  #F26464;
+    transition: 1s;
+
+
+}
+.button:hover{
+    background-color: #F26464;
+    color: #FFF;
+}
+.experience-section{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.experience-list{
+    display: flex;
+    /* width: 100%; */
+    margin: auto;
+   
+}
+.experience-section .experience-list section{
+    width: 50%;
+}
+li{
+    font-weight: 300;
+    word-spacing: .5rem;
+    line-height: 2rem;
+   
+   
+}
+
+
+
+
+
+
+
+
+.work-section{ 
+    padding-bottom: 80px;
+ }
+.work-list{ 
+    padding-left: 70px; 
+    padding-top:40px; 
+    padding-right: 70px; 
+    background-color:#F6F8FA; 
+    margin-bottom: 40px; 
+    min-height: 400px;
+}
+.work-list section{ 
+    padding-top: 20px; 
+    padding-right: 120px;
+ }
+.work-tilte{ 
+    color: #000; 
+    font-size: 30px; 
+    line-height: 36px; 
+    font-weight: 600; 
+    margin-bottom: 30px; 
+}
+.work-list p{ 
+    font-weight: 300; 
+    font-size: 18px; 
+    line-height: 30px; 
+}
+
+.work-list-section .button {
+    margin-top: 20px;
+   display: inline-block    
+}
+
+.work-list img{
+    width: 25rem;
+    border-radius: 12px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{ background-color: #000; 
+        padding: 100px 0;
+        text-align: center;
+        min-height: 200px;
+     }
+.footer section { padding-bottom: 97px; 
+            }
+.footer section span{ color: rgba(255,255,255,0.5);
+     text-transform: uppercase; 
+     font-weight: 700; 
+     font-size: 16px; 
+     letter-spacing: 1px; 
+     display: block; 
+     padding-bottom: 20px; }
+.footer section  h4{ color: #FFF; 
+    font-size: 48px;
+     font-weight: 700; }
+.footer section p{ letter-spacing: 1.13px; 
+    color: #FFF;
+     font-size: 18px; 
+    margin-bottom: 40px; }
